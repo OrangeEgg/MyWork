@@ -1,0 +1,60 @@
+.container {
+    text-align: center;
+    font-family: 'Langar';
+    margin: 0px;
+}
+
+.line {
+    width: 75px;
+    height: 8px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+#App {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(#03005c 0%, #0f09b5 100%);
+    color: white;
+}
+
+#Games {
+    width: 100%;
+    height: 550px;
+    background: linear-gradient(#786e00 0%, #ffea00 100%);
+    color: white;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.85);
+}
+
+#CB {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(#570000 0%, #ff0000 100%);
+    color: white;
+}
+
+#Webs {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(#006103 0%, #00ff08 100%);
+    color: white;
+}
+#MoreApps {
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(#1d00ff 0%, #6a57ff 100%);
+    color: white;
+}
+#MoreGames {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(#f6ff00 0%, #fbff85 100%);
+    color: white;
+}
